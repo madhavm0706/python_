@@ -1,6 +1,10 @@
 import array
 
-a = array.array('i',[1,2,3,4,5])
+a = array.array('i',[1,2,3,4,5,6,7])
 
-for i in range(4):
-    print (a[i]), 
+b = input("enter a no ")
+
+for i in range(len(a)):
+    if (i+b < len(a)):
+
+        print(a[i+b]),
